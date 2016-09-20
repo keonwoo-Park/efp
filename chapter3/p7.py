@@ -1,11 +1,6 @@
 
-def cal(length, width):
-    feet_square = length * width
-    area = feet_square/3.3
-    
-    meter = area*area*0.09290304
-    meter_square = meter ** 0.5
-    
+def cal(length, width): 
+    meter_square = length * width * 0.09290304
     return meter_square
 
 
